@@ -1,0 +1,104 @@
+.logo img{
+  width: 120px;
+}
+
+h2 {
+  font-size: 32px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 1px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 14.4px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  color: #24292e;
+}
+
+header .container {
+  width: 67%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container ul{
+  display: flex;
+  padding-left: 0;
+  gap: 30px;
+}
+
+header .container ul li{
+  list-style: none;
+}
+
+.main .container {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 80px;
+  color: #383e45;
+}
+
+.fv img {
+  width: 100%;
+}
+
+.about {
+  padding-bottom: 100px;
+}
+
+.about h2 {
+  margin-bottom: 70px;
+}
+
+.about_contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.about_contents img {
+  width: 100px;
+  height: 100px;
+}
+
+.about_text {
+  text-align: left;
+}
+
+.bycycle h2 {
+  margin-bottom: 60px;
+}
+
+.bycycle_contents {
+  display: flex;
+  gap: 17.2px;
+  justify-content: center;
+}
+
+.bycycle_contents h3,p{
+  margin: 0;
+}
+
+.bycycle_contents h3{
+  margin: 10px 0px;
+}
+
+footer {
+  padding-top: 110px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 8px;
+  font-weight: 300;
+}
