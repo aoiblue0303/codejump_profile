@@ -41,6 +41,14 @@ header .container ul li{
   list-style: none;
 }
 
+.logo {
+  display: inline-block;
+}
+
+.logo img {
+  display: block;
+}
+
 .main .container {
   width: 75%;
   margin: 0 auto;
@@ -51,6 +59,8 @@ header .container ul li{
 
 .fv img {
   width: 100%;
+  height: 600px;
+  object-fit: cover;
 }
 
 .about {
@@ -87,6 +97,10 @@ header .container ul li{
   justify-content: center;
 }
 
+.bycycle_contents div img{
+  width: 274.4px;
+}
+
 .bycycle_contents h3,p{
   margin: 0;
 }
@@ -101,4 +115,33 @@ footer {
   text-align: center;
   font-size: 8px;
   font-weight: 300;
+}
+
+@media screen and (max-width:768px) {
+header .container {
+  width: 92%;
+}
+
+.main .container {
+  width: 92%;
+}
+
+.about h2 {
+  margin-bottom: 60px;
+}
+
+.about_contents {
+  gap: 10px;
+  flex-direction: column;
+}
+
+.bycycle_contents {
+  flex-direction: column;
+  gap: 30px;
+}
+
+.bycycle_contents div img{
+  width: 100%;
+}
+
 }
